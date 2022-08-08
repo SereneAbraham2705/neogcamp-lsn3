@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+:root{
+   --primary-color: #0891b2; 
+   --dark-grey:#6b7280;
+   --off-white:#e2e8f0;
+
+}
+body{
+    font-family:'Poppins',
+    sans-serif;
+}
+hr{
+    margin:2rem 0rem;
+}
+/**container**/
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+    
+}
+.link-primary{
+    
+    background-color:var(--primary-color);
+    color:white;
+    border-radius: 0.5rem;
+    
+    
+}
+.link-secondary{
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+/**list**/
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+.list-new .list-shade{
+    color:var(--primary-color);
+}
+/**navigation**/
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:white;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+/**header**/
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-image{
+    margin: auto;
+    max-width: 500px;
+}
+.hero .hero-heading{
+    color:var(--dark-grey);
+}
+.hero .hero-heading .heading-inverter{
+    color:var(--primary-color);
+}
+/**sections**/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    
+}
+.ow{
+    background-color: var(--off-white);
+}
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+}
+.footer .footer-header{
+    font-weight:bold;
+    font-size: large;
+}
+.footer .link{
+    color: white;
+}
